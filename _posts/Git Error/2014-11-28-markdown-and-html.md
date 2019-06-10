@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Markdown and HTML
+title: Homebrew를 이용하여 MYSQL 설치 - MAC
+categories : [Git/Git Error]
 ---
 
 Jekyll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.

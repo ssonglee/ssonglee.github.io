@@ -1,12 +1,24 @@
 ---
 layout: page
-title: About
+title: About Song
 permalink: /about/
-feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+* Song Lee (1991.10.xx)
+* Portfolio
+- 2017.06 ~ 2018.03 삼성닷컴 웹 접근성 검수 팀
+- 2018.04 ~ 2018.06 삼성닷컴 AEM 신규 컨포넌트 작업
+- 2018.06 ~ 2018.08 현대 제철 스포츠단 여자 축구팀, 남자 양궁팀 구축
+- 2018.08 ~ 2018.10 기아 자동차 유지운영
+- 2018.08 ~ 2018.10 기아 자동차 시규페이지 작업 (CES-KIA,Global Tennis 등)
+- 2018.09 ~ 2018.10 토바키즈 구축
+- 2018.10 ~ 2018.11 엠허브 사이트 구축
+- 2018.11 ~ 2019.02 동부제철 
+- 2019.02 ~ 2019.03 GTP 사이트 구축
+- 2019.03 ~ 2019.05 SK하이닉스 HR 인증 사이트 구축
+* SKILL
+- Photoshop
+- HTML5 / CSS3 
+- JAVASCRIPT / JQUERY
+- GIT
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.

@@ -1,4 +1,6 @@
 .site-header {
+  position:fixed;
+  top:0;
   @extend %padding-small;
   background: $brand-color;
   border-bottom: 1px solid $border-color;
@@ -85,5 +87,28 @@
            background-color: $brand-color;
            color: $search-color;
         }
+    }
+
+    // Nav
+    .site-category {
+      width:100%;
+      li {
+        float:left;
+      }
+      li:after {
+        content:'';
+        display:block;
+        clear:both;
+
+        ul {
+          display:none;
+        }
+      }       
+      li:hover {
+        ul {
+          display:block;
+        }        
+      }
+       
     }
 }

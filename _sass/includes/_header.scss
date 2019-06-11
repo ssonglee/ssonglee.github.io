@@ -5,7 +5,6 @@
   background: $brand-color;
   border-bottom: 1px solid $border-color;
   display: inline-block;
-  float: left;
   width: 100%;
 
   a {
@@ -97,18 +96,18 @@
         li {
           float:left;
           ul.cat2 {
-            display:none;
+            // display:none;
             transition:all 0.5s;
           }
           &:hover ul.cat2 {
             display:block;
           }
-        } 
-        :after {
-          content:'';
+        }     
+      }  
+    }
+    .site-category:after {
+      content:'';
           display:block;
           clear:both;
-        }      
-      }  
     }
 }

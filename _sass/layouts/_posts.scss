@@ -68,9 +68,12 @@ header {
     padding:0.67em 0;
     h3 {
       margin:0;
-    }
-    p.meta {
-      display:inline-block;
+      p.meta {
+        color:#F46255;
+        font-weight:normal;
+        font-size:24px;
+
+      }
     }
   }  
 }

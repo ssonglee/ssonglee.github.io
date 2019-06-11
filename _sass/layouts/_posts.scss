@@ -55,3 +55,14 @@ header {
     @extend %padding-regular;
   }
 }
+
+/*---- song place ----*/
+.posts-list {
+  padding:5% 20%;
+  li {
+    padding:0.67em 0;
+    h3 {
+      margin:0;
+    }
+  }  
+}

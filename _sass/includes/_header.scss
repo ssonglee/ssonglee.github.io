@@ -91,20 +91,20 @@
 
     // Nav
     .site-category {
+      clear:both;
       width:100%;
       ul.cat1{
         li {
           float:left;
           ul.cat2 {
             display:none;
+            transition:all 0.5s;
           }
-          &:hover {
-            ul.cat2 {
-              display:block;
-            }
+          &:hover ul.cat2 {
+            display:block;
           }
         } 
-        &:after {
+        :after {
           content:'';
           display:block;
           clear:both;

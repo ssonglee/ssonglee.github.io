@@ -28,6 +28,11 @@ article {
 header {
   h1 {
     margin: 0;
+    text-align:left;
+    font-size:34px;
+  }
+  .meta {
+    text-align :left;
   }
 }
 .meta {
@@ -63,6 +68,9 @@ header {
     padding:0.67em 0;
     h3 {
       margin:0;
+    }
+    p.meta {
+      display:inline-block;
     }
   }  
 }

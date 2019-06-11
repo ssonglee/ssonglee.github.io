@@ -11,8 +11,6 @@
   }
 
   .avatar {
-    height: 2em;
-    width: 2em;
     border-radius: 0.2em;
     margin-right: 7px;
   }
@@ -22,6 +20,7 @@
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
+    vertical-align: middle;
   }
 
   .site-nav {
@@ -91,14 +90,24 @@
     /*--- header ---*/
     .branding {
       display:inline-block;
+      a {
+        width: 2em;
+        height:2em;
+        vertical-align: middle;
+      }
     }
     .site-category {
       clear:both;
       width:100%;
       ul{
+        float:right;
         margin-bottom:0;
         li {
           float:left;
+          margin:0 0.3em;
+          &:hover a {
+            color:#267B97;
+          }
         }     
       }  
       ul.cat1:after {

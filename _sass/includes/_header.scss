@@ -99,18 +99,6 @@
         margin-bottom:0;
         li {
           float:left;
-          ul.cat2 {
-            display:none;
-            transition:display 0.5s;
-          }
-          &:hover ul.cat2 {
-            display:block;
-          }
-          ul.cat2:after {
-            content:'';
-            display:block;
-            clear:both;
-          }
         }     
       }  
       ul.cat1:after {

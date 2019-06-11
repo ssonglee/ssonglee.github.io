@@ -90,7 +90,7 @@
     /*--- header ---*/
     .branding {
       display:inline-block;
-      a {
+       > a {
         width: 2em;
         height:2em;
         vertical-align: middle;
@@ -105,8 +105,18 @@
         li {
           float:left;
           margin:0 0.3em;
-          &:hover a {
-            color:#267B97;
+          a {
+            position:relative;
+            color:#222;
+          }
+          &:hover a:after {
+            content:'';
+            position:absolute;
+            top:-5px; left:50%;
+            margin-left:-0.5px;
+            width:1px; height:1px;
+            background:#F46255;
+            border-radius: 100%;
           }
         }     
       }  

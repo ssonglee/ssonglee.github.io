@@ -18,12 +18,16 @@
 // Post listing
 .posts {
   .post-teaser {
+    padding:3% 20%;
     @extend %padding-regular;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+    h1 {
+      font-size:34px;
+    }
     p a {
       @extend .body-link;
     }

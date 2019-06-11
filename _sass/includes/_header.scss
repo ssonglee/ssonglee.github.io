@@ -1,10 +1,8 @@
 .site-header {
-  position:fixed;
-  top:0;
   @extend %padding-small;
   background: $brand-color;
   border-bottom: 1px solid $border-color;
-  display: inline-block;
+  display: block;
   width: 100%;
 
   a {
@@ -21,7 +19,6 @@
   }
 
   .site-title {
-    float: left;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
@@ -29,6 +26,8 @@
 
   .site-nav {
     ul {
+      display:inline-block;
+      vertical-align: middle;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -88,7 +87,10 @@
         }
     }
 
-    // Nav
+    /*--- header ---*/
+    .branding {
+      display:inline-block;
+    }
     .site-category {
       clear:both;
       width:100%;
@@ -96,18 +98,23 @@
         li {
           float:left;
           ul.cat2 {
-            // display:none;
+            display:none;
             transition:all 0.5s;
           }
           &:hover ul.cat2 {
             display:block;
           }
+          ul.cat2:after {
+            content:'';
+            display:block;
+            clear:both;
+          }
         }     
       }  
-    }
-    .site-category:after {
-      content:'';
-          display:block;
-          clear:both;
+      ul.cat1:after {
+        content:'';
+        display:block;
+        clear:both;
+      }
     }
 }

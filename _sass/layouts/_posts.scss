@@ -78,8 +78,13 @@ header {
     }
   }  
 }
+// portfolio img css
 .img_company {
-  display:block;
-  margin:10% 0;
-  width:30%;      
+  display:inline-block;
+  margin:0 10%;
+  width:30%;
+  &.cal2 img{
+    display:block;
+    width:100%;
+  }      
 }

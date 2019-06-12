@@ -85,7 +85,8 @@ header {
   width:30%;   
 }
 .post-content {
-  p {
+  .no-bottom {
+    margin-bottom:0;
     strong {
       color:#F46255;
     }

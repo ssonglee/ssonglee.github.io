@@ -55,8 +55,11 @@
 .home {
   padding-top:100px;
   .img-song {
-    margin:0 auto;
-    width:250px; height:250px;
+    position:relative; left:50%;
+    display:inline-block;
+    margin:180 auto;
+    transform:translateX(-50%);
+    width:250px;
     a {
       display:block;
       width:100%;

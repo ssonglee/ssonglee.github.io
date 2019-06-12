@@ -53,8 +53,16 @@
 
 // home
 .home {
+  padding-top:100px;
   .img-song {
     margin:0 auto;
-    width:400px; height:400px;
+    width:250px; height:250px;
+    a {
+      display:block;
+      width:100%;
+    }
+  }
+  .call-out {
+    padding:0;
   }
 }

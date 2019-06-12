@@ -58,12 +58,12 @@ header {
   }
   .post-content {
     @extend %padding-regular;
-    .img_company {
-      display:inline-block;
-      width:30%;
-      margin:0 10%;
-    }
-  }  
+  }
+  .img_company {
+    display:inline-block;
+    margin:0 auto;
+    width:30%;
+  }
 }
 
 /*---- song place ----*/

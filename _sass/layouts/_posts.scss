@@ -57,12 +57,7 @@ header {
     }
   }
   .post-content {
-    @extend %padding-regular;
-    .img_company {
-      display:block;
-      margin:10% 0;
-      width:30%;      
-    }
+    @extend %padding-regular;    
   }
 }
 
@@ -82,4 +77,9 @@ header {
       }
     }
   }  
+}
+.img_company {
+  display:block;
+  margin:10% 0;
+  width:30%;      
 }

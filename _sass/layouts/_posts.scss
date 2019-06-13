@@ -80,10 +80,19 @@ header {
 }
 // portfolio img css
 .img_company { 
-  display:inline-block;
-  margin:0 5%;
+  position:relative;
+  display:block;
   width:30%;   
-  transform:translateY(50%);
+  img {
+    position:absolute;
+    top:50%; left:5%;
+    transform:translateY(-50%);
+  }
+  &.cal2 {
+    img {
+      right:30%;
+    }
+  }
 }
 .post-content {
   .no-bottom {

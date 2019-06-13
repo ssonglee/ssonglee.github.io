@@ -105,3 +105,23 @@ header {
     }
   }
 }
+
+// about me
+.profile {
+  div {
+    margin-bottom:10px;
+    h2 {
+      display:inline;
+      font-size:1.7em;
+    }
+    h2:before {
+      content:'-';
+      padding-right:10px;
+      color:#F46255;
+    }
+    p {
+      display:inline;
+      margin-left:10px;
+    }
+  }  
+}

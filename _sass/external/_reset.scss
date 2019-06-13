@@ -318,7 +318,9 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-
+html, body {
+  height:100%;
+}
 input {
   line-height: normal;
 }

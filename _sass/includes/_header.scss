@@ -121,3 +121,8 @@
       clear:both;
     }
 }
+.site-header:after {
+  content:'';
+  display:block;
+  clear:both;
+}

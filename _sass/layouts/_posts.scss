@@ -79,10 +79,11 @@ header {
   }  
 }
 // portfolio img css
-.img_company {
+.img_company { 
   display:inline-block;
   margin:0 5%;
   width:30%;   
+  transform:translateY(50%);
 }
 .post-content {
   .no-bottom {

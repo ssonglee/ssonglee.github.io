@@ -114,10 +114,10 @@
           }
         }     
       }  
-      ul.cat1:after {
-        content:'';
-        display:block;
-        clear:both;
-      }
+    }
+    .site-category:after {
+      content:'';
+      display:block;
+      clear:both;
     }
 }

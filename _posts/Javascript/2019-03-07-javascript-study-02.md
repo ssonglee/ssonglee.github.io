@@ -133,7 +133,8 @@ result2 = Number(material3) * material4;
 
 ```
 var brands = ['Apple','Coca-cola','Starbucks'];
-var iPad = [800,'Black',true]; - iPad의 가격, 색상, 재고유무를 표현 (java는 배열의 한가지 자료만 넣을 수 있다.)
+var iPad = [800,'Black',true]; - iPad의 가격, 색상, 재고유무를 표현 
+(java는 배열의 한가지 자료만 넣을 수 있다.)
 
 typeof brands;
 'object'

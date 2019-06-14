@@ -95,6 +95,12 @@ header {
   }
 }
 .post-content {
+  strong {    
+    color: darken(#0A994C, 15%);
+  }
+  .txt_point {
+    color:#0A994C;
+  }
   .no-bottom {
     margin-bottom:0;
     color:#67696B;

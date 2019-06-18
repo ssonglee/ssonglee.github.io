@@ -88,10 +88,10 @@ for (var i = 0; i < 6; i = i + 1 ){
 }
 
 ```
-<p>var i = 0; - 반복문에 사용할 변수 선언</p>
-<p>i < 6 - 반복 조건</p>
-<p>i = i + 1 - 반복문이 끝나고 실행될 코드</p>
-<p>console.log(brands[i]) - 반복시키고 싶은 코드</p>
+<p class="txt_point">var i = 0; - 반복문에 사용할 변수 선언</p>
+<p class="txt_point">i < 6 - 반복 조건</p>
+<p class="txt_point">i = i + 1 - 반복문이 끝나고 실행될 코드</p>
+<p class="txt_point">console.log(brands[i]) - 반복시키고 싶은 코드</p>
 
 <br>
 

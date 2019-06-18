@@ -62,6 +62,10 @@ console.log('높이:5');
 
 <p class="txt_point">for 반복문을 이용해서 머리쓰는거 넘나 어려운것..ㅠㅠ </p>
 
+<br>
+
+<p class="txt_point">star = '*'에서 * 값을 뺀 상태로 실행 하면 별 한개씩 줄인 삼각형을 볼 수 있당... </p>
+
 
 
 

@@ -87,6 +87,9 @@ th {
   border: 1px solid $border-color;
   text-align: left;
 }
+th {
+  background-color:lighten(#F46255,50%);
+}
 table,
 dl,
 blockquote,

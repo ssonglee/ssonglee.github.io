@@ -5,7 +5,7 @@ categories: [Javascript]
 ---
 > JAVASCRIPT STUDY
 
-<strong>for 문을 응용한 문제들 너무 어려워요ㅠㅠ </strong>
+<strong>for of 문과 for in 문 </strong>
 
 {% highlight python %}
 

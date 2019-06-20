@@ -5,13 +5,15 @@ permalink: /about/
 ---
 
 <div class="profile">
+  <p>경험하고, 공부하고, 생각한것을 기록했다 :-)</p>
+  <br>
   <div>
     <h2>E.Song</h2>
-    <p>1991.10.xx</p>
+    <p>Birth 1991</p>
   </div>
   <div>
     <h2>SKILL</h2>
-    <p>HTML5 / CSS3 / JAVASCRIPT / JQUERY / GIT ...</p>
+    <p>HTML5 / CSS3 / JAVASCRIPT / JQUERY / GIT / Scss ...</p>
   </div>
   <div>
     <h2>WORKING</h2>

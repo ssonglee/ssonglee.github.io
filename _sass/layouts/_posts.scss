@@ -98,14 +98,22 @@ header {
   }
 }
 .post-content {
+  blockquote {
+    p {
+      font-weight:bold;
+    }
+  }
   strong {    
-    color: darken(#0A994C, 15%);
+    color: darken(#0A994C, 20%);
+    font-size:1.2em;
   }
   .txt_point {
     color:#d01040;
+    font-weight:bold;
   }
   .txt_point02 {
-    color: darken(#0A994C, 15%);
+    color: darken(#0A994C, 10%);
+    font-weight:bold;
   }
   .no-bottom {
     margin-bottom:0;

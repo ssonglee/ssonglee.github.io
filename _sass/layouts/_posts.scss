@@ -73,7 +73,7 @@ header {
       p.meta {
         color:#F46255;
         font-weight:normal;
-        font-size:20px;
+        font-size:15px;
         line-height:1em;
 
       }
@@ -129,12 +129,11 @@ header {
 .profile {
   div {
     margin-bottom:10px;
-    h2 {
+    h3 {
       display:inline;
-      font-size:1.7em;
       font-weight:normal;
     }
-    h2:before {
+    h3:before {
       content:'-';
       padding-right:10px;
       color:#F46255;

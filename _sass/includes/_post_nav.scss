@@ -1,9 +1,10 @@
 #post-nav {
   width:100%;
+  border-top: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
   float: left;
   text-align: center;
-  @extend %padding-small;
+  padding:2% 6%;
   i {
     vertical-align: middle;
   }

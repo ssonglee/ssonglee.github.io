@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: portfolio-category
 title: Portfolio
 permalink: 'Portfolio'
 ---

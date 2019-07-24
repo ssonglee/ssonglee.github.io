@@ -4,10 +4,9 @@
 .post-content > :last-child {
   margin-bottom: 0;
 }
-article,
+.content-wrap,
 .comments {
   @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
   float: left;
   width: 100%;
 }

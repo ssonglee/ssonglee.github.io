@@ -16,11 +16,11 @@ theme_settings:
      <p>Songblisher's Blog</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   
 
   # Icons
   rss: false
-  email_address: "becky9110@naver.com"
+  email_address: "becky9110@naver.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -38,7 +38,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter:
   wordpress:
   youtube:
 
@@ -56,7 +56,7 @@ theme_settings:
   str_previous_post: "Previous post"
   str_next_page: "Next"
   str_previous_page: "Prev"
-  str_continue_reading: "Read More"
+  str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
   str_search_no_results: "No results found."
 
@@ -67,9 +67,14 @@ theme_settings:
   # Post navigation
   post_navigation: true
 
+encoding: utf-8
+# Configure the plugin here
+category_path: "category" # <- default value
+category_layout: "category.html" # <- default value
+
 # PAGINATION
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -77,14 +82,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins:
-  - jekyll-paginate
-  - jekyll-category-pages
-gem:
-    - jekyll-sitemap
-    - jekyll-feed
-    - wdm
-theme: jekyll-theme-type
+plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock

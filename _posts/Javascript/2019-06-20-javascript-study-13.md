@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript Array 정리
+title: "Javascript Array 정리"
+type: "Javascript"
+subtilte : "배열이란!"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript return
+title: "Javascript return"
+type: "Javascript"
+subtilte : "악마의 return"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

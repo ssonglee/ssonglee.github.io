@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 악마의 2등 찾기 문제
+title: "악마의 2등 찾기 문제"
+type: "Javascript"
+subtilte : "for문 응용 시작!"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

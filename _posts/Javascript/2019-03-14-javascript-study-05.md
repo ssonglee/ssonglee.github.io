@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript switch 문 / for 반복문
+title: "Javascript switch 문 / for 반복문"
+type: "Javascript"
+subtilte : "switch & for"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript
+title: "Javascript"
+type: "Javascript"
+subtilte : "변수 & 상수"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY(변수&상수)

@@ -5,16 +5,16 @@ layout: default
   
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
-    <li>
-      <p class="meta">
-        {{ post.type }}
-      </p>      
+    <li> 
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
           <p>{{ post.title }}</p>
+          <p class="meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </p>
         </a>
       </h3>
-      <p class="txt_point03">{{ post.skill }}</p>
+      <p>{{ post.skill }}</p>
       <div class="excerpt">
         {{ post.excerpt }}
       </div>

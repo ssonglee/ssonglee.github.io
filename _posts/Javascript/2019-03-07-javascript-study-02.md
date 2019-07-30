@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Javascript
+title: "Javascript"
+type: "Javascript"
+subtilte : "Syntactic Sugar"
 categories: [Javascript]
 ---
-> JAVASCRIPT STUDY(Syntactic Sugar)
-
-<p>자주 쓰이는 표현을 더 간략하게 쓸 수 있게 해주는 문법(Syntactic - 문법적인 Sugar - 설탕)</p>
+>자주 쓰이는 표현을 더 간략하게 쓸 수 있게 해주는 문법(Syntactic - 문법적인 Sugar - 설탕)
 
 <strong>Assignment Operator</strong>
 

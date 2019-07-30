@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript String 정리
+title: "Javascript String 정리"
+type: "Javascript"
+subtilte : "문자열에 대하여"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

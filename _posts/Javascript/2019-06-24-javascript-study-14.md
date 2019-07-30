@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript Data 정리 
+title: "Javascript Data 정리 "
+type: "Javascript"
+subtilte : "Data 객체를 적극활용해보기😍"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

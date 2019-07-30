@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Javascript Math 정리 노트
+title: "Javascript Math 정리 노트"
+type: "Javascript"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

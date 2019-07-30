@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 비교연산자
+title: "비교연산자"
+type: "Javascript"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

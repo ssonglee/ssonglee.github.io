@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 악몽의 삼각형 만들기 
+title: "악몽의 삼각형 만들기 "
+type: "Javascript"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

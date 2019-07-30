@@ -18,14 +18,14 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post-teaser">
       <header>
+        <p class="meta">
+          {{ post.type }}
+        </p>   
         <h1>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
         </h1>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
       </header>
       <div class="excerpt">
         {{ post.excerpt }}

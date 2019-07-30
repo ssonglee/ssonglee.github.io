@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript for 문 vs while 문
+title: "Javascript for 문 vs while 문"
+type: "Javascript"
+subtilte : "차이점 찾아보기"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

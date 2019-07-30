@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript
+title: "Javascript"
+type: "Javascript"
+subtilte : "배열!"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

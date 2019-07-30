@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Javascript for of 반복문
+title: "Javascript for of 반복문"
+type: "Javascript"
+subtilte : "for of & for in"
 categories: [Javascript]
 ---
 > JAVASCRIPT STUDY

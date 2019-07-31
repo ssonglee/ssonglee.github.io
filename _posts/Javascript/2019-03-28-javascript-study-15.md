@@ -1,6 +1,6 @@
 ---
 layout: post
-title: :while문 break문 그리고 continue 문"
+title: "while문 break문 그리고 continue 문"
 type: "Javascript"
 categories: [Javascript]
 ---

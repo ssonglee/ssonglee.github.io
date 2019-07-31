@@ -25,28 +25,37 @@
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
-    h2 {
-      margin:0.2em 0;
-      font-size:28px;
-    }
-    p.meta {
+    .index-post-type {
+      margin-bottom:0;
       color:$pink-color;
       font-weight:bold;
       font-size:1em;
-
     }
-    p a {
-      @extend .body-link;
+    a {
+      display:block;
+      h2 {
+        color:$text-color;
+        margin:0.4em 0;
+        font-size:24px;
+      }
+      .index-post-date {
+        font-size:0.8em;
+      }
+      .index-post-excerpt {
+        padding:0 20% 0 0 ;
+        margin:10px 0 0 ;
+        color:$gray-color;
+        blockquote {
+          margin:0.5em 0;
+        }
+      }
+      &:hover h2 {
+        color:lighten($text-color,20%);
+      }
+      &:hover .index-post-excerpt {
+        color:lighten($gray-color,20%);
+      }
     }
-  }
-  .excerpt {
-    margin-top: 0;
-    blockquote {
-      margin:0.5em 0;
-    }
-  }
-  .button {
-    margin:0;
   }
 }
 // Pagination

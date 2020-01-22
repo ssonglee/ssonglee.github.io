@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "project"
-description: 경험했던 프로젝트 이야기
+title: "etc"
+description: 끄적끄적
 main: true
+project-header: true
+header-img: img/about.jpg
 ---
 
 <ul class="catalogue">

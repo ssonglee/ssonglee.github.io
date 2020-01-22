@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Blog"
-description: 아주 가끔씩 관심 분야의 글을 올려요.
+title: "Study"
+description: 공부 한 것을 기록해요.
 main: true
 project-header: true
 header-img: img/about.jpg

@@ -9,19 +9,19 @@
         <div class="nav-container">
             <ul>
                 <li class="transition">
-                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "book" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
+                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "study" or current[1] == "etc" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
                 </li>
                 <li class="transition">
-                    <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
+                    <a href="{{ '/Project' | prepend: site.baseurl }}" {% if current[1] == "Project" %} class="active"{% endif %} >Project</a>
                 </li>
                 <li class="transition">
-                    <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Blog</a>
+                    <a href="{{ '/Study' | prepend: site.baseurl }}" {% if current[1] == "study" %} class="active"{% endif %} >Study</a>
                 </li>
                 <li class="transition">
-                    <a href="{{ '/book' | prepend: site.baseurl }}" {% if current[1] == "book" %} class="active"{% endif %} >Book</a>
+                    <a href="{{ '/etc' | prepend: site.baseurl }}" {% if current[1] == "etc" %} class="active"{% endif %} >etc</a>
                 </li>
                 <li class="transition">
-                    <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
+                    <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >about</a>
                 </li>
             </ul>
         </div>

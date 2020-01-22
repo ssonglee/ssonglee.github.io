@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "javascript의 간략한 문법"
-subtitle: "자주 쓰이는 표현을 더 간략하게 쓸 수 있게 해주는 문법(Syntactic - 문법적인 Sugar - 설탕)"
+subtitle: "자주 쓰이는 표현을 더 간략하게 쓸 수 있게 해주는 문법<br>(Syntactic - 문법적인 Sugar - 설탕)"
 type: "Javascript"
 study: true
 text: true

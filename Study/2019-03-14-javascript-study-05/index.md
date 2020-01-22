@@ -1,63 +1,124 @@
 ---
 layout: post
-title:  "디자인 시스템을 잘 만들고 싶다면? 뉴스레터를 시작하라"
-subtitle: "'Design Systems'의 아티클 01"
-type: "Translation & Summary"
-blog: true
+title:  "Javascript switch 문 / for 반복문"
+subtitle: "JAVASCRIPT STUDY"
+type: "Javascript"
+study: true
 text: true
-author: "Jihye Leee"
-post-header: true
-header-img: "img/header.jpg"
-order: 10
+author: "Song LEEE"
 ---
 
-_원문 아티클의 일부를 요약, 번역한 글로 [Design Systems](http://designsystems.com/) 사이트를 운영하는 [Figma](https://www.figma.com/)의 허락을 받고 게재하였다. 번역이 엉성할 수 있기에 원문도 꼭 읽어보기를 추천한다._
+## Switch문은 간단하다!
 
-# Starting a newsletter is the best thing you can do for your design system
+{% highlight python %}
 
-[Design Systems에서 원문 전체 보기 🔗](https://www.designsystems.com/starting-a-newsletter-is-the-best-thing-you-can-do-for-your-design-system/)
+<script>
+  var inputNumber = window.prompt ('한자리 숫자를 적어주세요.');
+  switch (inputNumber) {
+    case '0':
+      alert('Zero!');
+      break;
+    case '1':
+      alert('one');
+      break;
+    case '7':
+      alert('Lucky~');
+      break;
+    default:
+      alert ('Unlucky!');
+      break;
+  }
+</script>
 
-이 글은 실리콘밸리의 HR 소프트웨어 기업 구스토(Gusto)에서 디자인 시스템을 만드는 디자이너가 쓴 글이다. 그는 디자인 시스템을 어떻게 만들었는지에 대해 조언해 주는 건 사실 불가능하다고 말한다. 모든 회사의 사정이 각자 다르기 때문이다. 하지만 한 가지 조언은 할 수 있는데 바로 `디자인 시스템에 관한 내용을 담은 사내 뉴스레터를 발행`하라는 거다.
+{% endhighlight %}
 
-## 뉴스레터를 발행하게 된 배경
+<p>inputNumber 가 0일 경우 Zero! 1일경우 One! 4일경우 Unlucky!</p>
+<p class="txt_point">만약에break가 빠진다면?</p>
+<p>다음 케이스로 넘어가서 케이스 0일 경우 Zero 가 나오고 One 이 나오고 Lucky, Unlucky까지 나오게 된다.</p>
 
-디자인 시스템 업무는 프로덕트 팀에서 하지 않고 플랫폼 팀에서 하게 된다. 업무는 중요하지만 매일 하는 일이 인프라 작업이라 지루하고 거의 모든 작업이 눈에 띄지 않는다. 그래서 팀 외부에서는 어떤 일을 하는지 알기 어렵고 공감하기도 어렵다. (심지어 몇몇은 디자인 시스템 팀이 아무것도 하지 않는다고 생각했다고 한다!) 이 때문에 디자인 시스템 팀에 필요한 인력 채용 요청도 하기 힘들고 디자인 시스템을 쓰라고 장려하기도 어려웠다.
+{% highlight python %}
 
-그래서 라이브러리에 뭘 제공하는지, 컴포넌트에 어떤 업데이트 사항이 있는지, 현재 디자인 시스템 팀이 겪고 있는 문제가 무엇인지 뉴스레터로 발행하기 시작했다.
+var courseName = 'b';
+switch (courseName) {
+  case = 'c':
+    console.log('게살스프 칠리새우');
+  case = 'b':
+    console.log('유산슬');
+  case = 'a':
+    console.log('짜장면 짬뽕 탕수육 양장피 팔보채');
+    break;
+  default:
+    console.log('주문이 잘못 되었습니다');
+}
 
-## 디자인 시스템은 혼자서는 할 수 없다
+{% endhighlight %}
+<p>case b 일 경우 결과값 짜장면 짬뽕 탕수육 양장피 팔보채 유산슬</p>
 
-이 글을 쓴 Robin은 처음에는 디자인 시스템을 만드는 일을 혼자서 디자인도 하고 코딩만 하면 된다고 생각했다. 하다 보니 혼자서는 절대 할 수 없고 시스템 자체를 구축하는 일보다 많은 부서와의 커뮤니케이션이 훨씬 더 중요했다는 걸 뒤늦게 깨달았다.
+<br>
 
-> you must talk to people if you want to build a great system. You must reach out to everyone, designers and engineers alike, and help teach folks about the benefits of working within that system. The best way to start that little community? A newsletter.
->
-> 최고의 시스템을 만들고 싶다면 사람들과 이야기하는 시간을 늘려야 한다. 디자이너든 개발자든 반드시 모든 사람과 소통해야 하고 시스템 안에서 일하는 게 얼마나 좋은지 홍보하고 알려야 한다. 제일 좋은 방법은? 바로 뉴스레터다.
+<br>
 
-## 뉴스레터의 목표
+<br>
 
-1. 디자인 시스템 팀의 업무를 디자이너, 엔지니어, PM, C 레벨에게 낱낱이 알린다.
-2. 디자인 시스템 팀의 업무의 가치와 어떻게 복잡한 문제를 풀었는지를 조직 전체에 알린다.
-3. 큰 프로젝트 같은 경우 before vs after 스크린샷을 공유해서 디자인 시스템 팀의 스케일을 보여준다.
-4. 추후 어떤 일을 할 건지, 그리고 다른 부서에도 얼마나 유용할지를 기술한다.
-5. 공통의 디자인 언어를 구축하여 커뮤니케이션에 문제가 없게 한다.
+<br>
 
-![Design System Newsletter](https://images.ctfassets.net/7jw9uvgmirvi/6ukAMoy5UIlYHTd6J5A0Fk/bf81f56877f49e55ed1d59fbf6cc2a97/Screenshot_2019-11-02_Design_Systems_Newsletter.png)
+<strong>for 반복문</strong>
 
-## 뉴스레터 발행 후
+<p>6개의 배열이 있을때?</p> 
 
-- 디자인 시스템 팀에 사기를 북돋아 주고 일에 자부심을 느끼게 해주었다.
-- 디자인 시스템 일은 항상 해야 할 일이 더 많고 시간 내서 팀이 해낸 개선을 살펴볼 시간이 없다. 뉴스레터로 공개적으로 발표되고 나면 디자인 시스템 일이 좀 더 마무리된 느낌을 준다.
-- 뉴스레터를 통해 투명하게 작업에 대해 공개함으로써 디자이너, 엔지니어, C 레벨로부터 디자인 시스템에 대해 엄청나게 많은 피드백을 받을 수 있었다.
-- 뉴스레터로 디자인 시스템 팀은 더 잘할 수 있는 일에 대해 이야기하는 포럼을 만들 수 있다. 이로 인해 사람들은 디자인 시스템 일을 더 이해할 수 있다. 디자인 시스템에 생기는 문제들이 모든 이와 쌓아온 신뢰를 무너뜨릴 수 있기 때문에 굉장히 중요한 일이다. 그렇기 때문에 디자인 시스템 팀은 제품에 만드는 변화에 대해 극도로 예민해야 한다.
+```
+var brands = ['Apple','Coca-cola','Starbucks','Amazon','BMW'];
+```
+<p>이렇게 표현할 수 있다. 각 배열들을 호출 시켜주려면 기존 방법은</p>
 
-## My memo ✍️
+{% highlight python %}
 
-왠지 모두 디자인 시스템에 대해 공감해서 쉽게 디자인 시스템을 만들고 쓰고 있을 것 같은 실리콘밸리에서도 디자인 시스템 팀을 만들고 운영하는 건 쉽지 않은 것 같다. 디자인 시스템 자체를 구축하는 것도 물론 중요하다. 하지만 결과물이 디자인, 개발팀 이외에도 여러 부서에서 쓰이기 때문에 디자이너와 엔지니어와의 관계에 더 시간을 투자하고 커뮤니케이션하는 게 어떻게 보면 더 중요할 수도 있을 것 같다. 이제 시작인 리디 디자인 시스템을 만들 때도 많은 참고가 될 것 같다.
+console.log(brans[0]);
+console.log(brans[1]);
+console.log(brans[2]);
+console.log(brans[3]);
+console.log(brans[4]);
+console.log(brans[5]);
 
-디자인 시스템 일 뿐만 아니라 어떤 무언가를 알리고 전파하기 위해 사내 뉴스레터를 활용해 보는 것도 좋은 방법일 것 같다. 생각해 보니 우리 회사에서는 이미 사내 뉴스레터를 잘 활용하고 있다(!) 매일매일 CS팀에서 고객의 소리를 보내주는데 그로 인해 고객 중심 문화가 잘 형성된 것 같다. 내가 속해 있는 디자인 팀에서 해야 하는 뉴스레터가 있을까? 고민해 봐야겠다.
+{% endhighlight %}
 
-# 🙋‍♀️ 마지막으로 채용 공고 홍보!
+<p>100개의 배열이 있다면 100줄의 코드를 사용해야 한다 하지만! for문은 그럴 필요가 없음</p>
 
-RIDI에서 함께 할 디지털 프로덕트 디자이너를 뽑고 있습니다! 자세한 채용 공고가 궁금하시다면 아래 이미지를 클릭해 주세요! 👇
+```
 
-<a href="http://bit.ly/2qoo3wp">![RIDI 디지털 프로덕트 디자이너 채용](https://cdn.dribbble.com/users/291872/screenshots/5483004/ridi-digital-product-designer.jpg)
+for (var i = 0; i < 6; i = i + 1 ){
+  console.log(brands[i]);
+}
+
+```
+<p class="txt_point">var i = 0; - 반복문에 사용할 변수 선언</p>
+<p class="txt_point">i < 6 - 반복 조건</p>
+<p class="txt_point">i = i + 1 - 반복문이 끝나고 실행될 코드</p>
+<p class="txt_point">console.log(brands[i]) - 반복시키고 싶은 코드</p>
+
+<br>
+
+{% highlight python %}
+
+  var brands = ['Apple','Coca-cola','Starbucks','Amazon','BMW'];
+    for (var i = 0 ; i < 6 ; i = i + 1) {
+      console.log(brands[i]);
+  }
+
+{% endhighlight %}
+
+<p>하면?</p>
+
+```
+Apple Coca-cola Starbucks Amazon BMW
+
+짧은 코드로 같은 결과값을 볼 수 있다!
+```
+
+
+
+
+
+
+
+

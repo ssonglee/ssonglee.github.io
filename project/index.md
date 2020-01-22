@@ -2,7 +2,7 @@
 layout: default
 work: true
 main: true
-title: Projects
+title: "Projects"
 description: 경험했던 프로젝트
 project-header: true
 header-img: "img/project_bg.jpg"

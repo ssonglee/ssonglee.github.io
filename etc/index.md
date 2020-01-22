@@ -1,17 +1,19 @@
 ---
 layout: default
-title: "etc"
-description: 끄적끄적
+work: true
 main: true
-etc: true
+title: "etc"
+description: 끄적끄적...
 project-header: true
 ---
 
-<ul class="catalogue">
+<div class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
 {% if page.etc == true %}
-    {% include post-list.html %}
+
+     {% include post-list.html %}
+
 {% endif %}
 {% endfor %}
-</ul>
+</div>

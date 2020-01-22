@@ -1,25 +1,14 @@
 ---
 layout: default
-title: "Jihye Leee"
+title: "Songblisher"
 main: true
-subtitle: Digital Product Designer Jihye Leee at RIDI
-description: Jihye Leee, who is a Digital Product Designer based in Seoul, South Korea. | '이지혜' 디지털 프로덕트 디자이너입니다. 리디에서 일합니다.
 ---
 <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
-    I'm Jihye Leee,
+    I'm Song Lee, WebPublisher!
     </h1>
-    <h1 class="intro">a Digital Product Designer at 
-        <div class="intro-link">
-            <a class="transition" href="http://ridicorp.com/" target="_blank">
-                RIDI
-            </a>
-            <div class="underline-mask transition"></div>
-            <div class="underline"></div>
-        </div>.
-    </h1>
-    <h2 class="intro">'이지혜' 디지털 프로덕트 디자이너입니다. 리디에서 일합니다.</h2>
+    <h2 class="intro">'이송' 웹 퍼블리셔 입니다. 프론트엔드 개발자가 되기 위해 공부 중 입니다 :)</h2>
 </section>
 </div>
 {% include resume.html %}

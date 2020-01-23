@@ -9,7 +9,7 @@ post-header: true
 header-img: img/about.jpg
 ---
 
-퍼블리셔를 거쳐 공부중인 자라나는 새싹 Frontend Developer.<br/>
+퍼블리셔를 거쳐 공부중인 자라나는 새싹 Frontend Developer.<span class="label-emoji">&#x1F331;</span><br/>
 경험하고,<br/> 공부한것을 기록 한 나만의 블로그. 
 
 # WebPublisher

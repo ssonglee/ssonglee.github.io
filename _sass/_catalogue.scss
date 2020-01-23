@@ -12,15 +12,16 @@
 }
 
   &-type {
+    margin-bottom:10px;
+    width:100%;
     color: $green;
     font-size: 18px;
     font-family: $source;
     font-weight: 600;
-    margin-bottom: 10px;
   }
    
   &-info {
-    display: inline-block;
+    width:100%;
     
     .catalogue-tag {
       font-family: $source;

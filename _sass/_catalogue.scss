@@ -76,13 +76,15 @@
       font-size: 16px;
       color: $grey-1;
     }
+    
+    p.catalogue-date {
+      margin-top:10px;
+      text-align:right;
+      color: $grey-1;
+      font-size:13px;
+    }
       
-  }
-  div.catalogue-date {
-    text-align:right;
-    color: $grey-1;
-    font-size:13px;
-  }
+  } 
   
   .catalogue-draft-message {
     text-align: center;

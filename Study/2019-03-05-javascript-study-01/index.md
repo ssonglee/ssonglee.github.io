@@ -5,7 +5,7 @@ subtitle: "알아두면 뼈가되고 살이되는 스크립트"
 type: "Javascript"
 study: true
 text: true
-author: "Song LEEE"
+date: "05 MAY 2019" 
 ---
 
 # AVASCRIPT STUDY(변수&상수)

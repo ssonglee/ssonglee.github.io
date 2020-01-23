@@ -18,9 +18,9 @@
       <p class="catalogue-body">
         {{ page.content | truncatewords: 24 | strip_html }}
       </p>
-    </div>
-    <div class="catalogue-date">
-      {{ page.date | date: "%B %-d, %Y" }}
+      <p class="catalogue-date">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </p>
     </div>
   </a>
 </li>    

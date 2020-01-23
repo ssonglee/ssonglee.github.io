@@ -13,5 +13,5 @@ header-img: img/about.jpg
 {% if page.study == true %}
   {% include post-list.html %}
 {% endif %}
-{% endfor %}s
+{% endfor %}
 </ul>

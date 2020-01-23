@@ -13,8 +13,7 @@ role-specific: "Web accessibility, Responsive, Web Publisher, JAWS, 센스리더
 team: "퍼블리셔 4명"
 platforms: "Chrome IE8,9,10,11 Opera Safari Firefox"
 project-date: "Jun 2017 - Mar 2018"
-date: "08 Jun 2018"
-order: 1
+date: "08 Jun 2017"
 ---
 
 # 첫 프로젝트 웹 접근성 컨설팅!

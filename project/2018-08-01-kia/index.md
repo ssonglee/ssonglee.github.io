@@ -6,6 +6,7 @@ subtitle: "유지운영"
 type: "CIDOW"
 projects: true
 text: true
+order: 4
 portfolio: true
 role-title: "Kia 글로벌 사이트 유지운영"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript"

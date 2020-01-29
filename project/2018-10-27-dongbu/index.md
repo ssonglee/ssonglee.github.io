@@ -5,6 +5,7 @@ title:  "Dongbu-steel"
 subtitle: "bizplaza"
 type: "CIDOW"
 projects: true
+order: 8
 text: true
 portfolio: true
 role-title: "엠허브 사이트 구축"

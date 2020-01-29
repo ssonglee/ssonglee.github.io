@@ -5,6 +5,7 @@ title:  "SK Hynix 채용포털"
 subtitle: "사이트 구축"
 type: "CIDOW"
 projects: true
+order: 10
 text: true
 portfolio: true
 role-title: "SK Hynix 채용포털 site 구축"
@@ -12,7 +13,7 @@ role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascri
 team: "디자이너 2 퍼블리셔 3"
 platforms: "Chrome IE10,11 Firefox "
 project-date: "Apr 2019 - May 2019"
-date: "11 Apr 2018"
+date: "11 Apr 2019"
 ---
 
 # 청년 채용 포털 사이트 

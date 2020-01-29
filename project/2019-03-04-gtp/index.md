@@ -5,6 +5,7 @@ title:  "GtradePay"
 subtitle: "사이트 구축"
 type: "CIDOW"
 projects: true
+order: 9
 text: true
 portfolio: true
 role-title: "Gtradepay site 구축"
@@ -12,7 +13,7 @@ role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascri
 team: "디자이너 1 퍼블리셔 3 개발자 1"
 platforms: "Chrome IE10,11 Firefox "
 project-date: "Mar 2019 - Apr 2019"
-date: "04 Mar 2018"
+date: "04 Mar 2019"
 ---
 
 # 글로벌 B2B 결제와 글로벌 마케팅을 수행하는 회사 GTP 

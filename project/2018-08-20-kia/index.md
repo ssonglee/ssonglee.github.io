@@ -6,6 +6,7 @@ subtitle: "신규이벤트 페이지 담당"
 type: "CIDOW"
 projects: true
 text: true
+order: 5
 portfolio: true
 role-title: "Kia 글로벌 사이트 신규페이지"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript , Responsive"

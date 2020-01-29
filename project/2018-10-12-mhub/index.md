@@ -6,6 +6,7 @@ subtitle: "web-site"
 type: "CIDOW"
 projects: true
 text: true
+order: 7
 portfolio: true
 role-title: "엠허브 사이트 구축"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript , Responsive"

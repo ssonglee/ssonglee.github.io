@@ -6,6 +6,7 @@ subtitle: "animation function page"
 type: "CIDOW"
 projects: true
 text: true
+order: 6
 portfolio: true
 role-title: "토바키즈 구축"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript , Responsive"

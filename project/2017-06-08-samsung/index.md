@@ -7,7 +7,7 @@ type: "CIDOW"
 projects: true
 text: true
 portfolio: true
-post-header: false
+order: 1
 role-title: "웹 접근성 컨설팅"
 role-specific: "Web accessibility, Responsive, Web Publisher, JAWS, 센스리더 "
 team: "퍼블리셔 4명"

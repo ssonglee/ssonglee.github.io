@@ -6,6 +6,7 @@ subtitle: "현대제철제단 스포츠팀 리뉴얼 구축"
 type: "CIDOW"
 projects: true
 text: true
+order: 3
 portfolio: true
 role-title: "현대 제철 스포츠단 여자 축구팀, 남자 양궁팀 구축"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript"

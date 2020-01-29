@@ -6,6 +6,7 @@ subtitle: "컴포넌트"
 type: "CIDOW"
 projects: true
 text: true
+order: 2
 portfolio: true
 role-title: "AEM 신규 컴포넌트 작업"
 role-specific: "Web accessibility, Responsive, Web Publisher, HTML , CSS , Jquery , Javascript"

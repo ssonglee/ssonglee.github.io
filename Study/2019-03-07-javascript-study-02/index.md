@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 3
+date: 07 Mar 2019
 ---
 
 ## Assignment Operator

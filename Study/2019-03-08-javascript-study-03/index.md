@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 4
+date: 08 Mar 2019
 ---
 
 ## Javascript

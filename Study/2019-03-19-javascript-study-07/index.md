@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 9
+date: 19 Mar 2019
 ---
 
 |연산자          |설명      |참을 반환하는 예제   |

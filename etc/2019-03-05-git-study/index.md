@@ -2,10 +2,11 @@
 layout: post
 title:  "마크다운(Markdown) 문법 정리"
 subtitle: "알아두면 피가 되고 살이되는 마크다운 문법정리 :)"
-type: "Git"
-study: true
+type: "Markdown"
+etc: true
 text: true
-author: "Song LEEE"
+order: 1
+date: 05 Mar 2019
 ---
 
 <strong>1. 헤더(Header)</strong>

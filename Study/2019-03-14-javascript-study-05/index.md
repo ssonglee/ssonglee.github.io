@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 7
+project-date: 14 Mar 2019
 ---
 
 ## Switch문은 간단하다!

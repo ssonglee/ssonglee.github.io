@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 14
+date: 19 Jun 2019
 ---
 
 ## 절대값 (Absolute Number)

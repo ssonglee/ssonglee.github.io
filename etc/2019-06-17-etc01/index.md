@@ -5,6 +5,8 @@ subtitle: "amp에 관한 간단한듯 어려운 포스팅"
 type: "Google AMP"
 etc: true
 text: true
+order: 2
+date: 17 Jun 2019
 ---
 
 <p>한 회사에서 AMP방식으로 작업을 한다 하여 열심히 구글링을 해보았다.</p>

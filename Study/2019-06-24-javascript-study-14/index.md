@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 17
+date: 24 Jun 2019
 ---
 
 <p class="txt_point02">날짜와 관련된 프로그램을 짜고 싶다면? Date 객체를 활용 하면 됩니다!</p>

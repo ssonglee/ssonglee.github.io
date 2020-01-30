@@ -6,6 +6,8 @@ type: "Git"
 study: true
 text: true
 author: "Song LEEE"
+order: 18
+date: 03 Jul 2019
 ---
 
 <p class="txt_point">Git 은 아무리 이론적으로 공부를 해봐도 정말 모르겠다ㅠㅠ 계속 부딪혀보고 여러번 해봐야 아 이 명령어가 이때 쓰이는구나, 이 원리구나 하고 알 수 있다. </p>

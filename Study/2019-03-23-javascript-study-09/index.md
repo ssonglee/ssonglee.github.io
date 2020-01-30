@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 11
+date: 23 Mar 2019
 ---
 
 ## for of 문과 for in 문

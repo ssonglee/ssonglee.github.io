@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 date: "05 MAY 2019" 
+order: 2
+date: 05 Mar 2019
 ---
 
 # AVASCRIPT STUDY(변수&상수)

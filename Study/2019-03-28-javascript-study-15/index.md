@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 13
+date: 28 Mar 2019
 ---
 
 ## while 문

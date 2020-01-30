@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 8
+date: 17 Mar 2019
 ---
 
 ## 힘들었다 

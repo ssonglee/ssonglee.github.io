@@ -6,6 +6,8 @@ type: "Git"
 study: true
 text: true
 author: "Song LEEE"
+order: 19
+date: 04 Jul 2019
 ---
 
 [링크](https://www.webfx.com/tools/emoji-cheat-sheet/)

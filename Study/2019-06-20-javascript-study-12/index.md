@@ -6,6 +6,8 @@ type: "Javascirpt"
 study: true
 text: true
 author: "Song LEEE"
+order: 15
+date: 20 Jun 2019
 ---
 
 ## 문자열의 길이

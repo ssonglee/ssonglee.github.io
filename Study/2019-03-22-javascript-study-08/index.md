@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 10
+date: 22 Mar 2019
 ---
 
 ## for 문 너무 어려워요ㅠ^ㅠ

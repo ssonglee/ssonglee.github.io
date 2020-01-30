@@ -6,6 +6,8 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
+order: 12
+date: 26 Mar 2019
 ---
 
 ## for문과 while문의 차이를 알아보자!

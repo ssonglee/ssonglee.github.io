@@ -6,6 +6,8 @@ type: "Git"
 study: true
 text: true
 author: "Song LEEE"
+order: 6
+date: 12 Mar 2019
 ---
 
 <p>이미지를 하나하나 푸쉬 하지 않고 쉽게 업로드 하는 방법!</p>

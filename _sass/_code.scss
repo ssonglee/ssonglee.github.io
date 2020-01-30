@@ -23,7 +23,8 @@ pre code {
   font-size: 16px;
 }
 
-div.highlight {
+div.highlight,
+figure.highlight {
   background-color: $grey-3;
   border: 1px solid $grey-2-70;
   border-radius: 3px;

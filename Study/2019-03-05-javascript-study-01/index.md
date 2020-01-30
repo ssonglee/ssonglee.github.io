@@ -10,12 +10,14 @@ order: 2
 date: 05 Mar 2019
 ---
 
-# AVASCRIPT STUDY(변수&상수)
+# JAVASCRIPT STUDY(변수&상수)
 
 <p>프로젝트에서 제이쿼리와 스크립트 라이브러리에 의존하지 않고 자바스크립트의 기초를 탄탄히 공부하고 싶어서 인터넷 강의를 시작했다! </p>
 <p>앞으로 하나하나 기록해봐야지 :-)</p>
 
-<p class="txt_point">변수 - 언제든 변할 수 있는 값! ex)돈의 액수</p>
+<br>
+
+## 변수 - 언제든 변할 수 있는 값! ex)돈의 액수
 
 ```
   1. var score = 0;
@@ -25,14 +27,15 @@ date: 05 Mar 2019
 
 <p>1번과 2번의 의미는 같다.</p>
 
-<p class="txt_point">상수 - 변하지 않는 값! ex)내가 태어난 년도</p>
+## 상수 - 변하지 않는 값! ex)내가 태어난 년도s
 
-<pre><code>const MAX_LEVEL = 99; 
-</code></pre>
+```
+const MAX_LEVEL = 99; 
+```
 
 <p>이건 절대 바꿀 수 없음.</p>
 
-<strong>* 변수와 상수를 만들 때 이름 짓는 팁!</strong>
+### * 변수와 상수를 만들 때 이름 짓는 팁!
 
 <p>꼭 지켜야 하는 룰(지키지 않으면 오류!)</p>
 
@@ -40,15 +43,19 @@ date: 05 Mar 2019
 2. '대문자와' '소문자'를 구별한다. myname 과 myName은 다름
 3. '예약어(Javscript가 좋아하는 단어)는 사용하면 안됨 ex) if, var , for 같은 것'
 
-<strong>* 변수와 상수에 넣는 것들?</strong>
+<br><br>
 
-<pre><code>var n = 10; 숫자열 - 10
+### * 변수와 상수에 넣는 것들?
+```
+var n = 10; 숫자열 - 10
 var s = '10'; 문자열 - 10
-</code></pre>
+```
 
 <p>확인하고 싶을땐 브라우저의 개발자도구 console에서 typeof 변수; ex) typeof n; 하면 값을 알 수 있다!</p>
 
-<strong>* 데이터 타입</strong>
+<br><br>
+
+### * 데이터 타입
 
 * 숫자형(number) 예)10, 3.14
 * 문자열(string) 예) 'hello', '10'

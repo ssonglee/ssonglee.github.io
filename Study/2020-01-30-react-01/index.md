@@ -26,7 +26,11 @@ date: 30 Jan 2020
 <p><code>Virtual DOM</code>은 DOM변화를 최소화 시켜주는 역할을 하는데 이 횟수를 최소화 시키는것은 성능적으로 매우 중요한 이슈라고 한다.</p>
 
 ## 리액트 프로젝트 시작해보기
-<p>리액트 프로젝트는 보통 JQuery 같은것을 단순히 <code><script src="..."></script></code>의 형태로 불러와서 사용했던 것 처럼 사용하지는 않는다. 그렇게 한다면 굉장히 제한적이다. 그 대신 리액트 프로젝트를 제대로 작업하려면 컴퓨터에 <code>Node</code> <code>yarn</code> <code>Webpack</code> <code>Babel</code>등의 도구를 설치하여 프로젝트를 설정해줘야 한다.</p>
+<p>리액트 프로젝트는 보통 JQuery 같은것을 단순히
+{% highlight python %}
+<script src="..."></script> 
+{% endhighlight %}
+의 형태로 불러와서 사용했던 것 처럼 사용하지는 않는다. 그렇게 한다면 굉장히 제한적이다. 그 대신 리액트 프로젝트를 제대로 작업하려면 컴퓨터에 <code>Node</code> <code>yarn</code> <code>Webpack</code> <code>Babel</code>등의 도구를 설치하여 프로젝트를 설정해줘야 한다.</p>
 <br>
 
 ### Webpack, Babel이란?

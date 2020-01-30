@@ -91,7 +91,7 @@ console.log('넓이:' + area);
 
 ## 문자열
 
-<p>주의!<code>""</code>에 주의하자!</p>
+<p>주의! <code>""</code> 에 주의하자!</p>
 
 ```
 var text3='it's cool'; - 오류

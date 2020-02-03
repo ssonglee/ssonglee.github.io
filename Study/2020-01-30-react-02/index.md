@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "JSX는 또 뭐죠"
-subtitle: "새로운 문법인가요? JSX는 뭐에요"
+title:  "JSX는 또 뭐죠 1"
+subtitle: "컴포넌트?!"
 type: "React"
 study: true
 text: true
@@ -81,3 +81,33 @@ class App extends Component {
   export default App;
 {% endhighlight %}
 <p>작성한 컴포넌트를 다른곳에서 불러와서 사용할 수 있도록 내보내기를 해주는 코드이다.</p>
+<p><code>index.js</code>파일을 보면, 다음 코드가 있다.</p>
+<br>
+
+{% highlight python %}
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
+
+{% endhighlight %}
+
+<p>만든 컴포넌트를 불러올 때는 이렇게 import를 사용해서 불러와준다.</p>
+
+{% highlight python %}
+  import App from './App';
+{% endhighlight %}
+<br>
+<p>그리고 브라우저 상에 리액트 컴포넌트를 보여주기 위해서는 <code>ReactDOM.render</code>함수를 사용한다.<br>
+첫번째 파라미터는 렌더링 할 결과물이고, 두번째 파라미터는 컴포넌트를 어떤 DOM에 그릴지 정해준다.</p>
+<br>
+<p><code>id</code>가 <code>root</code>인 <code>DOM</code>을 찾아서 그리도록 설정이 되어있는데, 해당 <code>DOM</code>은 <code>public/index.html</code>파일에서 찾아 볼 수 있다.<br>해당 파일안에 있는</p>
+{% highlight python %}
+  <div id="root"></div>
+{% endhighlight %}
+<p>를 찾아서 렌더링 해주는 것!</p>

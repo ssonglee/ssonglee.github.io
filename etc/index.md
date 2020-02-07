@@ -7,13 +7,29 @@ description: 끄적끄적...
 project-header: true
 ---
 
-<div class="catalogue">
+<ul class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
 {% if page.etc == true %}
 
-     {% include post-list.html %}
+  {% include post-list.html %}
 
 {% endif %}
 {% endfor %}
-</div>
+</ul>
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_previous_page }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next_page }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}

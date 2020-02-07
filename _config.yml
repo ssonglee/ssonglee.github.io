@@ -25,3 +25,8 @@ author:
 version:        3.4.1
 github:
   repo:         https://github.com/ssonglee/ssonglee.github.io
+
+# pagination
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "blog/page:num/"

@@ -25,3 +25,12 @@ author:
 version:        3.4.1
 github:
   repo:         https://github.com/ssonglee/ssonglee.github.io
+
+# pagination
+gems : [-jekyll-paginate-v2]
+pagination:
+  enabled: true
+  per_page: 5
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true 

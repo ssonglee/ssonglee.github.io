@@ -3,7 +3,7 @@ layout: default
 work: true
 main: true
 title: "etc"
-description: 끄적끄적...
+description: 알아두면 피가되고 살이되는
 project-header: true
 ---
 

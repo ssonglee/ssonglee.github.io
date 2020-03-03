@@ -8,7 +8,7 @@ projects: true
 order: 8
 text: true
 portfolio: true
-role-title: "엠허브 사이트 구축"
+role-title: "B2B 고객 전용 포탈 시스템 리뉴얼"
 role-specific: "Web accessibility, Web Publisher, HTML , CSS , Jquery , Javascript , Responsive , Exbuilder6 , less"
 team: "디자이너 1 퍼블리셔 2 개발자 10 "
 platforms: "Chrome IE10,11"

@@ -3,10 +3,10 @@ layout: post
 title:  "Git에 이모티콘을 넣어보자"
 subtitle: "Git 이모지!"
 type: "Git"
-study: true
+etc: true
 text: true
 author: "Song LEEE"
-order: 19
+order: 4
 date: 04 Jul 2019
 ---
 

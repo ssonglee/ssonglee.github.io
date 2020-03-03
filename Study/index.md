@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Study"
-description: 공부 한 것을 기록해요.
-main: true
+description: 공부 한 것을 기록해요.(변덕스러운 공부장)
 project-header: true
 header-img: img/about.jpg
 ---

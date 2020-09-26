@@ -10,12 +10,14 @@ order: 3
 date: 07 Mar 2019
 ---
 
-# Assignment Operator
+### Assignment Operator
+
 <p>다음 두 줄은 같은 의미이다</p>
 ```
 x=x+1;
 x+=1;
 ```
+<br>
 <br>
 
 <p>다음 두 줄은 같은 의미이다</p>
@@ -24,12 +26,14 @@ x=x+2;
 x+=2;
 ```
 <br>
+<br>
 
 <p>다음 두 줄은 같은 의미이다</p>
 ```
 x=x*1;
 x*=1;
 ```
+<br>
 <br>
 
 <p>다음 두 줄은 같은 의미이다</p>
@@ -38,6 +42,7 @@ x=x-3;
 x-=3;
 ```
 <br>
+<br>
 
 <p>다음 두 줄은 같은 의미이다</p>
 ```
@@ -45,8 +50,9 @@ x=x/2;
 x/=2;
 ```
 <br>
+<br>
 
-## 증가(increment) 감소(decrement)
+### 증가(increment) 감소(decrement)
 
 <p>다음 세 줄은 같은 의미이다</p>
 ```
@@ -54,6 +60,7 @@ x=x+1;
 x+=1;
 x++;
 ```
+<br>
 <br>
 
 <p>다음 세 줄은 같은 의미이다</p>
@@ -63,15 +70,16 @@ x-=1;
 x--;
 ```
 <br>
+<br>
 
-## 예제
+### 예제
 
 ```
 가로길이 var width = 10;
 세로길이 var height = 20;
 ```
 
-### QA. 둘레의 길이 구하기
+#### QA. 둘레의 길이 구하기
 
 ```
 var perimeter;
@@ -80,7 +88,7 @@ perimeter = 2*(width + height);
 console.log('둘레:' + perimeter);
 ```
 
-### QA. 넓이 구하기
+#### QA. 넓이 구하기
 
 ```
 var area;
@@ -89,7 +97,7 @@ area = width * height;
 console.log('넓이:' + area);
 ```
 
-## 문자열
+#### 문자열
 
 <p>주의! <code>""</code> 에 주의하자!</p>
 
@@ -100,7 +108,7 @@ var text3="it's cool"; - 통과
 
 <br>
 
-## 형 변환
+#### 형 변환
 
 <p>Chrome 개발자 도구에서</p>
 ```
@@ -140,7 +148,7 @@ result2 = Number(material3) * material4;
 
 <br>
 
-## 배열
+### 배열
 
 ```
 var brands = ['Apple','Coca-cola','Starbucks'];

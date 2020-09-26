@@ -5,7 +5,7 @@ subtitle: "amp에 관한 간단한듯 어려운 포스팅"
 type: "Google AMP"
 etc: true
 text: true
-order: 2
+order: 3
 date: 17 Jun 2019
 ---
 

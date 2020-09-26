@@ -5,7 +5,7 @@ subtitle: "리액트의 기본 중 기본 virtual DOM"
 type: "Virtual DOM"
 etc: true
 text: true
-order: 3
+order: 6
 date: 13 Feb 2020
 ---
 

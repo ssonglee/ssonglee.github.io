@@ -6,7 +6,7 @@ type: "Git"
 study: true
 text: true
 author: "Song LEEE"
-order: 6
+order: 2
 date: 12 Mar 2019
 ---
 

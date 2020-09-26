@@ -15,4 +15,3 @@ platforms: "Chrome IE10,11 Firefox "
 project-date: "Jun 2019 - Oct 2019"
 date: "30 Jul 2019"
 ---
-

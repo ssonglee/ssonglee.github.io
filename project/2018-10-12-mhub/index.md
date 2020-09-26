@@ -16,11 +16,14 @@ project-date: "Oct 2018 - Nov 2018"
 date: "12 Oct 2018"
 ---
 
-# 구축 !
+### 구축 !
 
-<a class="img_company" href="http://www.m-hub.co.kr/mhub/index.do" title="엠허브 바로가기">
+<a class="img-company" href="http://www.m-hub.co.kr/mhub/index.do" title="엠허브 바로가기">
 ![bg_mhub](https://user-images.githubusercontent.com/43769441/59395635-e4e51880-8dbf-11e9-87dc-69d4acd770aa.png)
 </a>
+`click-this-image!`
 
-- 광고 전문 회사의 홈페이지를 수주받아 회사에서 진행했던 프로젝트 였다.<br/>
+#### 광고 전문 회사의 홈페이지를 수주받아 회사에서 진행했던 프로젝트 였다.
+
+프로젝트 나가기 전 잠시 참여했던 프로젝트! <br>
 반응형, 호환성까지 확인하여 작업하였다.<br/>

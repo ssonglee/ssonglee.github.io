@@ -6,11 +6,11 @@ type: "Javascript"
 study: true
 text: true
 author: "Song LEEE"
-order: 4
+order: 3
 date: 08 Mar 2019
 ---
 
-## Javascript
+### Javascript
 
 ```
 var text1 = 'Hello';
@@ -24,7 +24,7 @@ console.log(typeof text2) object
 
 <strong>mutable(바뀔수있는) vs. immutable(바뀔 수 없는)</strong>
 
-<p>배열은 mutable</p>
+#### 배열은 mutable
 
 ```
 var text1 = ['H','e','l','l','o'];
@@ -32,13 +32,13 @@ text1[0] = 'b';
 console.log(text1); ['b','e','l','l','o'];
 ```
 
-<strong>배열</strong>
+#### 배열
 
 ```
 var brands = ['Apple','Coca-cola','Starbucks'];
 ```
 
-<strong>배열 속 배열</strong>
+#### 배열 속 배열
 
 ```
 var products = [
@@ -61,7 +61,7 @@ var appleProducts = products[0];
 
 ```
 
-<strong>객체 Object</strong>
+#### 객체 Object
 
 ```
 var person = ['Donwook','30','Korea'];
@@ -82,7 +82,7 @@ console.log(typeof person); object
 같은 방식 console.log(person.name);
 ```
 
-<strong>함수</strong>
+#### 함수
 
 {% highlight python %}
   function logTask(task) {
@@ -97,7 +97,7 @@ console.log(typeof person); object
 {% endhighlight %}
 <p class="txt_point">중복된 코드가 적으면 적을 수록 일이 적다! 그리고 눈에 잘 들어옴</p>
 
-<strong>예제</strong>
+#### 예제
 
 ```
 expressMultiplication(3,4);
